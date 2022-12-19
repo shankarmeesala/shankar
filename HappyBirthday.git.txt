@@ -1,0 +1,23 @@
+import java.util.*;
+class HappyBirthday
+{
+static public void main(String...sbking)
+{
+Scanner s=new Scanner(System.in);
+System.out.println("enter n value");
+int  n=s.nextInt();
+if(n==11)
+{
+System.out.println("enter m value");
+int m=s.nextInt();
+if(m==28)
+System.out.println("happy birthday b sobhan sir");
+else
+{
+System.out.println("have a nice day");
+}
+}
+else
+System.out.println("have a nice day");
+}
+}
